@@ -18,7 +18,6 @@ converter = pylon.ImageFormatConverter()
 converter.OutputPixelFormat = pylon.PixelType_BGR8packed
 converter.OutputBitAlignment = pylon.OutputBitAlignment_MsbAligned
 
-print(f"Starting Highly Optimized Capture (Display scaled to {DISPLAY_SCALE*100}%)...")
 print("Move the board around. Press 'C' to save when you see the colored lines.")
 print("Press 'Q' to quit.")
 
